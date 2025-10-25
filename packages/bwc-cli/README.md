@@ -138,7 +138,7 @@ Located at `~/.bwc/config.json`:
 ```json
 {
   "version": "1.0",
-  "registry": "https://buildwithclaude.com/registry.json",
+  "registry": "https://raw.githubusercontent.com/davepoon/claude-code-subagents-collection/main/web-ui/public/registry.json",
   "paths": {
     "subagents": "~/.claude/agents/",
     "commands": "~/.claude/commands/"
@@ -157,7 +157,7 @@ Located at `./bwc.config.json`:
 ```json
 {
   "version": "1.0",
-  "registry": "https://buildwithclaude.com/registry.json",
+  "registry": "https://raw.githubusercontent.com/davepoon/claude-code-subagents-collection/main/web-ui/public/registry.json",
   "paths": {
     "subagents": ".claude/agents/",
     "commands": ".claude/commands/"
@@ -168,6 +168,21 @@ Located at `./bwc.config.json`:
   }
 }
 ```
+
+### Custom Registry
+
+You can configure a custom registry URL by editing the `registry` field in your config:
+
+```json
+{
+  "registry": "https://your-domain.com/registry.json"
+}
+```
+
+Alternative registry options:
+- **GitHub (default)**: `https://raw.githubusercontent.com/davepoon/claude-code-subagents-collection/main/web-ui/public/registry.json`
+- **BuildWithClaude**: `https://buildwithclaude.com/registry.json` (when available)
+- **Custom/Local**: Point to your own registry.json file
 
 **Note:** Add `.claude/` to your `.gitignore` to avoid committing installed files.
 

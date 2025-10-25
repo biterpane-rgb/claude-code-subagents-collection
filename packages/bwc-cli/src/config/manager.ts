@@ -15,7 +15,7 @@ import process from 'process'
 
 const DEFAULT_CONFIG: BwcConfig = {
   version: '1.0',
-  registry: 'https://buildwithclaude.com/registry.json',
+  registry: 'https://raw.githubusercontent.com/davepoon/claude-code-subagents-collection/main/web-ui/public/registry.json',
   paths: {
     subagents: AGENTS_DIR,
     commands: COMMANDS_DIR
@@ -28,7 +28,7 @@ const DEFAULT_CONFIG: BwcConfig = {
 
 const DEFAULT_PROJECT_CONFIG: BwcConfig = {
   version: '1.0',
-  registry: 'https://buildwithclaude.com/registry.json',
+  registry: 'https://raw.githubusercontent.com/davepoon/claude-code-subagents-collection/main/web-ui/public/registry.json',
   paths: {
     subagents: '.claude/agents/',
     commands: '.claude/commands/'
