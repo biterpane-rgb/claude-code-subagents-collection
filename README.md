@@ -49,7 +49,7 @@ Learn more about the CLI tool at [buildwithclaude.com/docs/cli](https://www.buil
 ## Overview
 
 This repository contains:
-- **43+ Specialized Subagents**: AI experts in specific domains, automatically invoked based on context or explicitly called when needed
+- **118+ Specialized Subagents**: AI experts in specific domains, automatically invoked based on context or explicitly called when needed
 - **39+ Slash Commands**: Community-contributed commands for automating tasks, managing projects, and enhancing workflows
 
 ## Quick Start
@@ -130,6 +130,7 @@ find claude-code-subagents-collection/commands -name "*.md" -exec cp {} ~/.claud
 - **game-developer** - Build games with Unity, Unreal Engine, or web technologies
 - **ui-ux-designer** - Design user interfaces and experiences with modern design principles and accessibility standards
 - **hyperledger-fabric-developer** - Develop Enterprise blockchain with Hyperledger Fabric
+- **meeting-video-analyzer** - Analyze meeting recordings and create detailed consultant-style reports for presentations and business processes
 
 ### 💰 Crypto Trading
 - **crypto-trader** - Build cryptocurrency trading systems and integrate with exchange APIs
