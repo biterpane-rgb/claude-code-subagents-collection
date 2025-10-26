@@ -56,10 +56,10 @@ Vollständiger Pfad: `C:\Users\IhrBenutzername\AppData\Roaming\Claude\claude_des
     "local-files": {
       "command": "node",
       "args": [
-        "C:\\Users\\IhrName\\Projekte\\claude-code-subagents-collection\\packages\\mcp-local-files\\dist\\index.js"
+        "C:\\Users\\IhrBenutzername\\Documents\\GitHub\\claude-code-subagents-collection\\packages\\mcp-local-files\\dist\\index.js"
       ],
       "env": {
-        "MCP_ALLOWED_PATHS": "C:\\Users;D:\\;E:\\Videos"
+        "MCP_ALLOWED_PATHS": "C:\\Users\\IhrBenutzername\\Videos;C:\\Users\\IhrBenutzername\\Documents\\GitHub;D:\\Videos;E:\\Recordings"
       }
     }
   }
@@ -69,6 +69,7 @@ Vollständiger Pfad: `C:\Users\IhrBenutzername\AppData\Roaming\Claude\claude_des
 **Wichtig für Windows**:
 - Verwenden Sie **doppelte Backslashes** (`\\`) in JSON-Pfaden
 - Trennen Sie mehrere Pfade mit **Semikolon** (`;`)
+- Ersetzen Sie `IhrBenutzername` mit Ihrem Windows-Benutzernamen
 
 #### macOS/Linux Beispiel:
 
@@ -99,13 +100,22 @@ Die `MCP_ALLOWED_PATHS` Umgebungsvariable definiert, welche Verzeichnisse Claude
 #### Empfohlene Windows-Pfade:
 
 ```json
-"MCP_ALLOWED_PATHS": "C:\\Users;D:\\Videos;E:\\Recordings;F:\\Netzwerk"
+"MCP_ALLOWED_PATHS": "C:\\Users\\IhrBenutzername\\Videos;C:\\Users\\IhrBenutzername\\Documents;D:\\Videos;E:\\Recordings"
+```
+
+Für spezifische Verzeichnisse (empfohlen für bessere Sicherheit):
+```json
+"MCP_ALLOWED_PATHS": "C:\\Users\\IhrBenutzername\\Videos;C:\\Users\\IhrBenutzername\\Documents\\GitHub;C:\\Users\\IhrBenutzername\\Documents\\Projekte"
 ```
 
 Für Netzwerkfreigaben:
 ```json
-"MCP_ALLOWED_PATHS": "C:\\Users;\\\\server\\freigabe;D:\\Videos"
+"MCP_ALLOWED_PATHS": "C:\\Users\\IhrBenutzername\\Videos;\\\\server\\freigabe;D:\\Videos"
 ```
+
+**Sicherheitshinweis**: Verwenden Sie möglichst spezifische Pfade statt breiter Verzeichnisse wie `C:\\Users`. Zum Beispiel:
+- ✅ Gut: `C:\\Users\\IhrName\\Documents\\GitHub`
+- ❌ Zu breit: `C:\\Users` (gibt Zugriff auf alle Benutzerverzeichnisse)
 
 #### Empfohlene macOS/Linux-Pfade:
 

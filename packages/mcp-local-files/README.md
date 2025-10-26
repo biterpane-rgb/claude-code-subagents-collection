@@ -12,6 +12,10 @@ Ein Model Context Protocol (MCP) Server für sicheren Zugriff auf lokale Dateien
 - ✅ **Metadaten**: Größe, Erstellungs- und Änderungsdatum
 - ✅ **Sicherheit**: Pfad-Validierung und konfigurierbare Zugriffsbeschränkungen
 
+## Quick Start
+
+📺 **Für Wandera Video-Analyse**: Siehe [QUICKSTART-WANDERA.md](QUICKSTART-WANDERA.md) für eine schnelle, spezifische Anleitung.
+
 ## Installation
 
 ### Voraussetzungen
@@ -41,10 +45,10 @@ Fügen Sie den MCP-Server zu Ihrer Claude Desktop Konfiguration hinzu:
     "local-files": {
       "command": "node",
       "args": [
-        "/absoluter/pfad/zu/claude-code-subagents-collection/packages/mcp-local-files/dist/index.js"
+        "C:\\Users\\IhrBenutzername\\Documents\\GitHub\\claude-code-subagents-collection\\packages\\mcp-local-files\\dist\\index.js"
       ],
       "env": {
-        "MCP_ALLOWED_PATHS": "C:\\Users;D:\\;/home;/Users;/mnt;/media"
+        "MCP_ALLOWED_PATHS": "C:\\Users\\IhrBenutzername\\Videos;C:\\Users\\IhrBenutzername\\Documents\\GitHub;D:\\Videos"
       }
     }
   }
@@ -60,15 +64,19 @@ Die Umgebungsvariable `MCP_ALLOWED_PATHS` definiert, welche Verzeichnisse zugän
 - **Windows**: Semikolon (`;`)
 - **Linux/macOS**: Doppelpunkt (`:`)
 
-**Beispiel für Windows**:
+**Beispiel für Windows** (spezifische Pfade empfohlen):
 ```json
-"MCP_ALLOWED_PATHS": "C:\\Users;D:\\Videos;E:\\Recordings"
+"MCP_ALLOWED_PATHS": "C:\\Users\\IhrBenutzername\\Videos;C:\\Users\\IhrBenutzername\\Documents\\GitHub;D:\\Videos"
 ```
 
 **Beispiel für Linux/macOS**:
 ```json
-"MCP_ALLOWED_PATHS": "/home:/Users:/mnt/videos:/media"
+"MCP_ALLOWED_PATHS": "/home/username/videos:/Users/username/Documents:/mnt/videos"
 ```
+
+**Sicherheitshinweis**: Verwenden Sie spezifische Pfade statt breiter Verzeichnisse:
+- ✅ Empfohlen: `C:\\Users\\username\\Videos`
+- ❌ Zu breit: `C:\\Users` (Zugriff auf alle Benutzer)
 
 ### Schritt 4: Claude Desktop neu starten
 

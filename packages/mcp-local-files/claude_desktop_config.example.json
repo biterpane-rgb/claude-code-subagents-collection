@@ -3,10 +3,10 @@
     "local-files": {
       "command": "node",
       "args": [
-        "/ABSOLUTER/PFAD/ZU/claude-code-subagents-collection/packages/mcp-local-files/dist/index.js"
+        "C:\\Users\\IhrBenutzername\\Documents\\GitHub\\claude-code-subagents-collection\\packages\\mcp-local-files\\dist\\index.js"
       ],
       "env": {
-        "MCP_ALLOWED_PATHS": "C:\\Users;D:\\Videos;E:\\Recordings"
+        "MCP_ALLOWED_PATHS": "C:\\Users\\IhrBenutzername\\Videos;C:\\Users\\IhrBenutzername\\Documents\\GitHub;D:\\Videos;E:\\Recordings"
       }
     }
   }
