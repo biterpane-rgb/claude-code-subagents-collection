@@ -1,0 +1,35 @@
+{
+  "name": "@bwc/mcp-local-files",
+  "version": "1.0.0",
+  "description": "MCP server for accessing local files and videos from network shares and local storage",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-local-files": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "local-files",
+    "video-analysis",
+    "file-access"
+  ],
+  "author": "Claude Code Contributors",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
