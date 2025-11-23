@@ -14,9 +14,13 @@
 **Rechtsform:** Gesellschaft mit beschränkter Haftung (GmbH)
 **Gründungsjahr:** 1992 (ursprünglich als "Aagon Network & Communication Services", GmbH seit 1996)
 
-**Geschäftsführer:**
-- Wilko Frenzel (Gründer)
-- Sascha Häckel (Gründer)
+**Vertretungsberechtigte Geschäftsführer:**
+- Jürgen Vogler
+- Dirk Schemmann
+
+**Gründer:**
+- Wilko Frenzel (Gründer 1992)
+- Sascha Häckel (Gründer 1992)
 
 **Hauptsitz:**
 Lange Wende 33
@@ -35,7 +39,7 @@ Deutschland
 
 **Registerinformationen:**
 - Registergericht: Amtsgericht Arnsberg
-- Handelsregisternummer: HRB 5860
+- Handelsregisternummer: HRB 15997
 - Umsatzsteuer-ID: DE 182 726 092
 
 ### 1.2 Unternehmensstruktur und -größe
@@ -62,7 +66,8 @@ Deutschland
 **Aktuelle Situation:**
 - Im Januar 2025 wurde Aagon von GENUI übernommen
 - GENUI Partners (Hamburg) erwarb über Fund GENUI III eine Mehrheitsbeteiligung
-- Gründer Wilko Frenzel und Sascha Häckel bleiben als Geschäftsführer tätig
+- Aktuelle Geschäftsführer: Jürgen Vogler und Dirk Schemmann
+- Gründer Wilko Frenzel und Sascha Häckel: Status nach Übernahme (ggf. Beirat/Advisory)
 - Klaus Weinmann (GENUI Entrepreneur) übernimmt Vorsitz des Beirats
 
 **Deal-Details:**
