@@ -80,13 +80,24 @@ Deutschland
 
 ## 2. ZERTIFIZIERUNGEN UND AUSZEICHNUNGEN
 
-### 2.1 Qualitätssiegel
+### 2.1 Qualitätssiegel und Partnerschaften
 
 **"Software Made in Germany" (BITMi)**
 - Verliehen vom Bundesverband IT-Mittelstand e.V. (BITMi)
 - Bestätigt: Entwicklung ausschließlich in Deutschland
 - Kriterien: Service, Qualität, Nachhaltigkeit
 - Gilt für ACMP (Aagon Client Management Platform)
+
+**Microsoft Certified Partner**
+- Aagon ist Microsoft Certified Partner
+- ACMP verfügbar im Microsoft Azure Marketplace als SaaS-Angebot
+- Marketplace-ID: aagongmbh1725015844485.saas1
+- Integration mit Microsoft Intune (nativ)
+
+**BSI Allianz für Cyber-Sicherheit**
+- Mitglied der "Allianz für Cyber-Sicherheit"
+- Bundesamt für Sicherheit in der Informationstechnik (BSI)
+- Bestätigt Engagement für IT-Sicherheitsstandards
 
 ### 2.2 Techconsult Professional User Rating 2025
 
@@ -292,6 +303,18 @@ ACMP besteht aus verzahnten Modulen, die einzeln lizenziert werden können:
 - Kombination von Cloud (Intune) und On-Premises (ACMP)
 - Einheitliche Verwaltungsoberfläche
 - Keine wiederholten Logins beim Tenant-Wechsel
+
+**Azure Cloud Deployment (NEU ab ACMP 6.8.0 - Mai 2025):**
+- **Azure SQL Database Unterstützung** neben Microsoft SQL Server
+- **Vollständiger Azure-Betrieb möglich** - ACMP Server kann komplett in Azure-Umgebung betrieben werden
+- **Microsoft Azure Marketplace:** ACMP als SaaS-Angebot verfügbar
+- **Cloud-Native Option:** Alternative zum traditionellen On-Premises-Deployment
+- **Hybrid-Flexibilität:** Wahl zwischen On-Prem, Azure oder Hybrid-Deployment
+
+**Aktuelle Version:**
+- ACMP 6.8.3 (September 2025) - neueste Release
+- ACMP 6.8.2 (August 2025)
+- ACMP 6.8.0 (Mai 2025) - Azure SQL Support eingeführt
 
 ### 3.2 AESB (Aagon Enterprise Service Bus)
 
@@ -627,15 +650,18 @@ ACMP besteht aus verzahnten Modulen, die einzeln lizenziert werden können:
 ### 10.1 Stärken
 
 ✅ **Unternehmensstabilität:**
-- 30+ Jahre Markterfahrung
-- Über 2.800 Kunden
+- 30+ Jahre Markterfahrung (seit 1992)
+- Über 2.800 Kunden in D-A-CH
 - Finanzielle Stabilität (GENUI-Übernahme mit 8 Mio. EUR EBITDA)
-- Deutsche Gründer bleiben als Geschäftsführer
+- Professionelles Management: Jürgen Vogler, Dirk Schemmann (Geschäftsführer)
+- Continuity durch PE-Backing (GENUI)
 
-✅ **Qualitätsauszeichnungen:**
+✅ **Qualitätsauszeichnungen & Partnerschaften:**
 - Techconsult: 5x Champion, 2x High Performer (2025)
 - Konsistente Kundenzufriedenheit seit Jahren
 - "Software Made in Germany" (BITMi)
+- **Microsoft Certified Partner**
+- **BSI Allianz für Cyber-Sicherheit** (Bundesamt für Sicherheit in der Informationstechnik)
 
 ✅ **Funktionale Eignung:**
 - Umfassendes Client-Management
@@ -653,6 +679,13 @@ ACMP besteht aus verzahnten Modulen, die einzeln lizenziert werden können:
 - Deutschsprachig (D-A-CH)
 - Zertifizierte Partner verfügbar
 - Umfangreiche Dokumentation
+
+✅ **Cloud & Deployment-Flexibilität (NEU):**
+- **Azure Cloud Support** ab ACMP 6.8.0 (Mai 2025)
+- Microsoft Azure Marketplace Verfügbarkeit (SaaS)
+- Wahlmöglichkeit: On-Premises, Azure Cloud oder Hybrid
+- Azure SQL Database Unterstützung
+- Compliance-Vorteile durch Microsoft Cloud (z.B. ISO 27001 für Azure)
 
 ### 10.2 Schwächen / Risiken
 
